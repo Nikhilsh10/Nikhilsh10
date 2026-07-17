@@ -6,10 +6,10 @@
 ## 🚀 Projects that Ship
 
 ### [StreamSentinel](https://github.com/Nikhilsh10/streamsentinel)
-Real-time anomaly detection pipeline with **sub-500ms end-to-end latency**. Uses Kafka, FastAPI, Isolation Forest + Autoencoder, and a WebSocket dashboard.
+Real-time anomaly detection pipeline with **4.65ms avg latency** on a **5.5% anomaly rate** baseline. Verified performance: **Sensor ROC-AUC 0.9952 / F1 0.8392** and **Financial ROC-AUC 0.9893 / F1 0.7407**. Uses Kafka, FastAPI, Isolation Forest + Autoencoder, and a WebSocket dashboard.
 
 ### [Model-Calibration-Reliability-Dashboard](https://github.com/Nikhilsh10/Model-Calibration-Reliability-Dashboard)
-Validates whether a **0.92 anomaly score** actually means 92% probability. Addresses the real operational cost of miscalibrated scores in production fraud pipelines.
+Calibrates model probabilities to ensure anomaly scores reflect true real-world likelihoods. Addresses the real operational cost of miscalibrated scores in production fraud pipelines.
 
 ### [Fraud-Detection-MLOps-Pipeline](https://github.com/Nikhilsh10/Fraud-Detection-MLOps-Pipeline)
 End-to-end MLOps pipeline for Fraud Detection featuring automated CI/CD/CT, **MLflow tracking, Evidently AI drift monitoring, and serverless AWS ECS Fargate deployment** via CloudFormation.
